@@ -1,0 +1,12 @@
+.btn-white {
+  position: absolute;
+  border: 1px solid rgb(240, 240, 240);
+  background: white;
+  color: gray;
+  margin: 16px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: 0.3s;
+  font-size: 19px;
+  padding: 5px;
+}

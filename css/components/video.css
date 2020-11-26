@@ -1,0 +1,22 @@
+#code-video-index {
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    position: absolute;
+    z-index: -100;
+    transform: translateY(-487px);
+}
+
+.code-video {
+    display: block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    position: absolute;
+    z-index: -100;
+    transform: translateY(-363px);
+}
+

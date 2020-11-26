@@ -1,0 +1,19 @@
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: -8px;
+}
+
+#bee-avatar {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.75);
+    border-width: 2px;
+}

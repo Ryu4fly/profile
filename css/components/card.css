@@ -1,0 +1,69 @@
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  width: 400px;
+  margin: 32px;
+}
+
+.card-white {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 16px;
+  border: 1px solid rgb(200,200,200);
+  color: gray;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: 0px -53px;
+}
+
+
+#about-bee-card h2{
+  text-align: center;
+}
+
+#about-bee-card ul{
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+  line-height: 39px;
+}
+
+
+
+#goof {
+  background-position: 0px -125px;
+}
+
+.card-white:hover .btn-white {
+  display: inline-block;
+  opacity: 1;
+}
+
+.card-white .list-inline {
+  text-align: right;
+  font-size: 20px;
+  margin-bottom: -3px;
+  margin-top: 12px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.card-footer {
+    display: flex;
+    padding-left: 12px;
+    padding-top: 14px;
+    align-items: center;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  margin-left: 10px;
+}

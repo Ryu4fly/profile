@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap');
+@import url('components/card.css');
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/video.css");
+
+body {
+  background-color: rgba(73, 84, 100, 0.4);
+  font-family: 'Lora', Arial;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+header p {
+  margin: 0;
+}
+
+nav, #banner {
+  z-index: 2;
+}
+
+#banner, h1 {
+    font-weight: bold;
+    margin: 0;
+    padding: 44px;
+    color: white;
+    opacity: 1;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: .3s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f05454;
+  color: white;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 3.5%;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 1182px;
+    transform: scale(.7);
+}
+
+.greeting-card {
+  text-align: center;
+  padding: 67px;
+  font-size: 50px;
+}
+
+.greeting-card p {
+    line-height: 100px;
+}
+
+
+.profile-card h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 45px;
+}
+
+.profile-card p {
+  text-align: center;
+}
+
+
+#banner {
+  text-align: center;
+}
+
+footer {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:visited {
+  color: black;
+}
+
+
+/* Resize */
